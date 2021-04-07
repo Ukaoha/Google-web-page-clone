@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navigation */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    align-items: center;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    
+
+}
+nav ul li a {
+
+}
+.sign-in {
+    display: inline;
+    /* background-color: rgb(26, 115, 232); */
+    background-color: #4285fa;
+    border-radius: 4px;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    letter-spacing: .25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f8f8f8;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+.sign-in a {
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f8f8f8;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 125px;
+    aspect-ratio: auto 272 / 100;
+}
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+.icon-img {
+    height: 24px;
+}
+section .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .main .search-box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .search-box .search {
+    width: 100%;
+    padding: 13px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+section .main .search-box  .icons{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons {
+    margin-top: 20px;
+}
+section .main .buttons button {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+section .main .buttons button button:hover {
+    border: 1px solid #ccc;
+}
+section .main .languages {
+    display: flex;
+    margin-top: 30px;
+}
+section .main .languages li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+section .main .languages li a {
+    text-decoration: none;
+}
+section .main .languages li a:hover {
+    text-decoration: underline;
+}
+.goggle {
+    color: #1a0dab;
+}
+footer .fotter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2;
+}
+footer .fotter .row {
+    padding: 15px 25px;
+    /* border-top:1px solid rgba(0,0,0,0.5); */
+         border-bottom: 1px solid #dadce0;
+    }
+footer .fotter .row.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+footer .fotter .row.row2 ul {
+    display: flex;
+}
+footer .fotter .row.row2 ul li {
+    list-style: none;
+}
+footer .fotter .row.row2 ul:nth-child(2) li a{
+    list-style: none;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+footer .fotter .row.row2 ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    margin-left: 25px;
+}
